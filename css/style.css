@@ -1,0 +1,88 @@
+* {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo {
+    padding: 20px;
+}
+
+#enlaces {
+    display: flex;
+    list-style: none;
+    /* justify-content: space-around; */
+    margin-left:1100px;
+}
+
+#enlaces li {
+    padding: 12px 12px;
+}
+
+#enlaces a {
+    text-decoration: none;
+    color: black;
+}
+
+#imagen {
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    color: #FDFCF9;
+}
+
+#programar {
+    display: flex;
+    align-items: center;
+    padding-top: 48px;
+    margin: 0;
+    margin-left:140px
+}
+
+#aprende {
+    margin-left: 19px;
+    font-size: 43px;
+    font-weight: bold;
+}
+
+#escuelas {
+    font-size: 30px;
+    margin-left: 370px;
+}
+
+#escuelas strong, #codigo strong {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#codigo {
+    margin-left: 490px;
+    padding: 0;
+}
+
+#cdmx {
+    margin-left: 490px;
+    font-size: 30px;
+}
+
+#texto {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#titulo {
+    font-size: 30px;
+    font-weight: 900;
+    color: #CCC3AE;
+}
+
+#txt2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#txt3 {
+    font-size: 12px;
+    font-weight: 100;
+    padding-top: 6px;
+}
